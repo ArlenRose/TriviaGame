@@ -1,7 +1,15 @@
 body {
-    background-image: url("hpBackground.jpg");
-    background-repeat: repeat;
-  }
+  background-image: url("hpBackground.jpg");
+  background-repeat: repeat;
+  font-family: sans-serif;
+}
 
 
-  
+ul {
+list-style-type: none;
+}
+
+#question{
+background-color: wheat;
+}
+
