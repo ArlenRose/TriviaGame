@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Harry Potter Trivia</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div id= "container">
+    <div id="start">Start!</div>
+    <div id="quiz">
+
+        <div id="question"></div>
+        <div id="timer">
+            <div id="counter">100</div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        
+        <div id="choices">
+            <div class="choice" id="A" .onclick="checkAnswer('A')">A</div>
+            <div class="choice" id="B" .onclick="checkAnswer('B')">B</div>
+            <div class="choice" id="C" .onclick="checkAnswer('C')">C</div>
+            <div class="choice" id="D" .onclick="checkAnswer('D')">D</div>
+        </div>
+  
+    </div>
+    <div id="score">Score</div>
+</div>
+
+    <div id="scoreContainer" style = "display:none;"> 
+        <div class="prog"></div>
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+</body>  
+
+<!------------------------------------------------------------------>
+
+<!-- Game Instructions -->
+
+<!-- 
+    You click START and the timer starts running.
+
+    The timer should be set with an amount of time that
+    would be comparable to the amount of questions you have.
+
+    Regardless if you are finished responding to the questions,
+    if the timer runs out the screen should stop and prompt 
+    a score.
+
+ -------------------------------------------------------------------
+
+ Create a space for the possible questions - start with ten - 
+ these will be multiple choice - four possible answers per question.
+
+ Questions
+
+ 1. According to Sirius Black, which member of Durmstrang is a former Death Eater?
+
+     -Fenrir Greyback
+     -Severus Snape
+     -Igor Karkoff --
+     -Eloise Midgeon
+ 
+ 2. What item do you have to tickle to be granted access into the Hogwarts kitchens?
+
+     -A house elf
+     -An apple
+     -A pear --
+     -A mouse
+
+ 3. Cormac McLaggen tries out for which Quidditch position?
+
+     -Keeper --
+     -Beater
+     -Seeker
+     -Chaser
+
+ 4. The core of Harry Potters wand is made of which element?
+
+     -Dragon Heart String
+     -Unicorn Hair
+     -Phoenix Feather --
+     -Thestral Hair
+
+ 5. What book that Gilderoy Lockhart hold a book signing for in Flourish and Blotts?
+ 
+     -Magical Me --
+     -Gadding with Ghouls
+     -Year with the Yeti
+     -Who am I?
+
+ 6. Which Horcrux does Harry Potter find in Bellatrix Lestranges vault?
+
+     -Rowena Ravenclaw's Diadem
+     -Helga Hufflepuff's Cup --
+     -Salazar Slytherins Ring
+     -Tom Riddle's Diary
+
+ 7. The Marauder's Map was created by a group of friends formed of Wormtail,
+    Padfoot, Prongs and...?
+
+     -Snivelus
+     -Mooney --
+     -Phlegm
+     -Lupin
+
+ 8. Who hides a book on behalf of Harry in the Half-Blood Prince?
+
+     -Ron Weasley
+     -Rubeus Hagrid
+     -Hermione Granger
+     -Ginny Weasley --
+
+ 9. What form does Proffesor Snapes Patronus take?
+
+     - A doe --
+     - A snake
+     - An otter
+     - A stag
+
+ 10. What is the profession of Nicholas Flamel?
+
+     -Wand Maker
+     -Auror
+     -Alchemist --
+     -Historian
+
+ ------------------------------------------------------------------->
+
+</html>
